@@ -5,7 +5,9 @@ img{
 }
 
 div{
-    border: 2px solid red;
+    border: 5px solid red;
+    border-radius: 15px;
+    box-shadow: rgba(0,0,0,0.4) 5px 10px;
     text-align: center;
 }
 
@@ -15,5 +17,17 @@ p{
 
 .img-caption{
     color: red;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-variant: small-caps;
     font-size: 40px;
+}
+
+.img-caption:hover{
+    color: green;
+}
+
+h1{
+    font-family: 'Trade Winds';
 }
